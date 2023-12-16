@@ -1,0 +1,20 @@
+﻿@model MyMongoDbAjaxProject.DAL.Entities.Category
+@{
+    ViewData["Title"] = "UpdateCategory";
+}
+
+<h1>UpdateCategory</h1>
+
+
+<br />
+<br />
+<form method ="post">
+    <lable>Kategori ID</lable>
+    <input type ="text" asp-for ="CategoryID" class=" form-control" />
+    <br />
+    <lable>Kategori Adı</lable>
+    <input type ="text" asp-for ="CategoryName" class="form-control" />
+    <br />
+    <button clas ="btn btn-success">Kategoriyi Güncelle</button>
+
+</form>
